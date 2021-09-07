@@ -49,6 +49,17 @@ header {
 .headernavlink {
     padding-top: 30px;
 }
+#logo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.sizelogo {
+    width: 70%;
+}
+.logo-reservia{
+    max-width: 20%;
+}
 
 /*Navigation*/
 
