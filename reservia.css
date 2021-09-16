@@ -90,7 +90,7 @@ a:hover {
 }
 
 header nav a {
-    margin-left: 20px;
+    margin-left: 59px;
 }
 
 header nav {
@@ -348,11 +348,6 @@ h3 {
 
 /*Les plus populaires*/
 
-.titre_popularite {
-    display: flex;
-    flex-direction: row;
-}
-
 .titre_les_plus_populaires {
     font-size: large;
     margin-bottom: 25px;
@@ -360,6 +355,7 @@ h3 {
 
 .fa-chart-line {
     color: black;
+    margin-left: 150px;
 }
 
 #container_hebergements_populaires {
@@ -523,6 +519,7 @@ footer {
 .assistance {
     display: flex;
     flex-direction: column;
+    margin-right: 30%;
 }
 
 footer h4 {
@@ -646,8 +643,8 @@ footer h2 {
 
 }
 
-@media all and (max-width : 1006px) {
-
+@media all and (max-width : 1024px) {
+    
     .a_propos {
         margin-bottom: 20px;
     }
@@ -655,10 +652,13 @@ footer h2 {
     .nos_hebergements {
         margin-bottom: 20px;
     }
-
+    .sizelogo {
+        width: 55%;
+    }
 
     @media all and (max-width : 768px) {
-
+        
+       
         .filtre-bouton {
             margin-bottom: 5px;
         }
@@ -671,6 +671,12 @@ footer h2 {
             margin-left: 50px;
         }
 
+        .assistance {
+        margin-right: 20%;
+        }
+        .sizelogo {
+            width: 45%;
+        }
     }
 
     @media all and (max-width : 665px) {
@@ -766,6 +772,10 @@ footer h2 {
         #container_hebergements_populaires {
             border-radius: 0px;
         }
+        
+        .fa-chart-line {
+            margin-left: 140px;
+        }
 
         .filtre-bouton {
             margin-bottom: 5px;
@@ -778,11 +788,6 @@ footer h2 {
         .titre_filtres {
             align-self: flex-start;
             margin: 0px 0px 20px 30px;
-        }
-
-        #container_hebergements_populaires {
-            margin-bottom: 20px;
-            padding-left: 44px;
         }
 
         .box_carte {
@@ -938,6 +943,9 @@ footer h2 {
             margin-left: 12px;
         }
 
+        .fa-chart-line {
+            margin-left: 100px;
+        }
         .sinscrire {
             position: absolute;
             bottom: 50%;
@@ -1037,6 +1045,10 @@ footer h2 {
 
         .titre_activites {
             margin-left: 0px;
+        }
+
+        .fa-chart-line {
+            margin-left: 90px;
         }
 
         .titre_principal,
