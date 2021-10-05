@@ -224,6 +224,7 @@
   }
   .fa-chart-line:before {
     color: black;
+    margin-right: 10px;
   }
   .fa-chart-line {
     float: right;
@@ -333,7 +334,7 @@
   }
   .stars-Pop {
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
   }
   .populaire {
     margin-left: 9px;
@@ -346,7 +347,7 @@
   }
   .seeplus {
     display: block;
-    margin-top: 60px;
+    margin-top: 130px;
     margin-left: 10px;
     text-decoration: none;
     font-weight: bold;
@@ -415,9 +416,6 @@
     }
     .filter-item {
       margin-top: 10px;
-    }
-    .x1 .card {
-      margin-bottom: 80px;
     }
     .img-fluid {
       width: 150px;
