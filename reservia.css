@@ -1,11 +1,10 @@
-  /*police*/
-  body {
+   body {
     font-family: "Raleway", sans-serif;
     margin: 0;
   }
   
   /*header*/
-  .line {
+  .line{
     display: flex;
     flex-direction: row;
     margin-left: 5%;
@@ -18,31 +17,31 @@
     width: 50%;
   }
   
-  .menu {
+  nav {
     display: flex;
     width: 100%;
     justify-content: flex-end;
   }
-  .menu ul {
+  nav ul {
     list-style: none;
   }
-  .menu ul li {
+  nav ul li {
     display: flex;
     flex-direction: row;
     float: left;
   }
-  .menu ul li a {
+  nav ul li a {
     text-decoration: none;
     display: block;
     padding: 35px;
     color: black;
   }
-  .menu ul li a:hover{
+  nav ul li a:hover{
     text-decoration: #0065fc ;
     color: #0065fc;
     border-top: 3px solid #0065fc;
   }
-  .menu ul li a.signup {
+  nav ul li a.signup {
     color: #0065fc;
     font-weight: 600;
   }
@@ -425,7 +424,7 @@
     .logo {
       width: 10%;
     }
-    .menu ul li a {
+    nav ul li a {
       padding: 35px 20px;
     }
     .line {
@@ -533,29 +532,29 @@
     .search-icon {
       height: 53px;
     }
-    .menu ul {
+    nav ul {
       width: 100%;
       padding: 0;
     }
-    .menu ul li {
+    nav ul li {
       width: 50%;
     }
-    .menu ul li a {
+    nav ul li a {
       width: 100%;
       text-align: center;
       border-top: none;
       padding: 20px;
       border-bottom: 3px solid #f2f2f2;
     }
-    .menu ul li :hover{
+    nav ul li :hover{
       text-decoration: #0065fc ;
       color: #0065fc;
       border-bottom: 3px solid #0065fc;
       }
-      .menu ul li a:hover{
+      nav ul li a:hover{
         border-top: none;
       }
-    .menu ul li a.signup {
+    nav ul li a.signup {
       display: none;
     }
     .result .line {
